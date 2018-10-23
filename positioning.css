@@ -1,0 +1,48 @@
+*{
+    margin: auto;
+    padding:auto;
+}
+
+h1{
+    text-align: left;
+    font-size: 50px;
+    padding-top: 50px;
+    margin: 0 200px;
+}
+
+p{
+    line-height: 1.5em;
+    font-size: 20px;
+    margin: 0 200px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+body {
+    font-size: 24px;
+    text-align: center;
+}
+
+#fixed{
+    width: 280px;
+    height: 180px;
+    background-color: #eee;
+    position: fixed;
+}
+
+#relative{
+    margin-top: 20px;
+    width: 960px;
+    height: 250px;
+    background-color: #eee;
+    position: relative;
+}
+
+#absolute{
+    width: 280px;
+    height: 180px;
+    background-color: #999;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 60px;
+}
